@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../models');
-const { findAll } = require('../../models/Category');
+// const { findAll } = require('../../models/Category');
 
 // The `/api/tags` endpoint
 function handleError500(res) {
@@ -13,17 +13,25 @@ function handleError500(res) {
   }
 }
 
-router.get('/', async (req, res) => {
+router.get('/', (req, res) => {
   // find all tags
   // be sure to include its associated Product data
-  try {
-    const tagData = await Tag.findAll({
-      include: [{ model: Product }, {model: ProductTag}],
-    });
-    res.status(200).json(tagData);
-  } catch (err) {
-    res.status(500).json(err);
-  }
+  Tag.findAll({
+    include: [{
+      ProductTag
+    }]
+  }).then((tags) => {
+    res.json(tags);
+  })
+  .catch(handleError500);
+  // try {
+  //   const tagData = await Tag.findAll({
+  //     include: [{ model: Product }, {model: ProductTag}],
+  //   });
+  //   res.status(200).json(tagData);
+  // } catch (err) {
+  //   res.status(500).json(err);
+  // }
 });
 
 router.get('/:id', (req, res) => {
