@@ -10,7 +10,7 @@
     <a href="https://github.com/Beefs4000/E-commerce"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://drive.google.com/file/d/1o_FlGMcJXm79cRTHohDzXpjLp4AUcD6V/view">View Demo</a>
     ·
     </p>
 </div>
