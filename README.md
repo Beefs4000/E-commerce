@@ -43,7 +43,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-* ![MySQL Database](https://github.com/Beefs4000/E-commerce/blob/c1a50267a3c30e714baf1a082d2d844b9b8af625/utilities/MySQL.jpg)
+* Data Base Created
+![MySQL Database](https://github.com/Beefs4000/E-commerce/blob/c1a50267a3c30e714baf1a082d2d844b9b8af625/utilities/MySQL.jpg)
 * ![Testing using Insomnia](https://github.com/Beefs4000/E-commerce/blob/c1a50267a3c30e714baf1a082d2d844b9b8af625/utilities/Insomnia%20.jpg)
 * [Video preview](https://drive.google.com/file/d/1PSP45Lvwo-rgYuJGWlOlzAof3PcEUDJB/view)
 
