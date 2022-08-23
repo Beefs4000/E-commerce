@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 <h3 align="center">E-Commerce App</h3>
-
+<div>
   <p align="center">
     In this project we were tasked with building the back end for an e-commerce site by modifying some supplied starter code. 
     I configured a working Express.js API to use Sequelize to interact with a MySQL database. This enables the user to create,
